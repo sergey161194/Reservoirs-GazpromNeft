@@ -1,0 +1,231 @@
+html, body {
+	padding: 0;
+	margin: 0;
+
+	width: 100%;
+	height: 100%;
+
+	font-family: "Roboto";
+	font-size: 14px;
+	line-height: 16px;
+
+	color: #FFFFFF;
+	background-color: #1B1E27;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.items {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	gap: 20px;
+}
+
+/*------------------РЕЗЕРВУАР-№1------------------*/
+.mass {
+	width: 197.12px;
+	height: auto;
+	margin-bottom: 9px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #1B1E27;
+}
+
+.head-block-1 {
+		width: 55px;
+		height: 21px;
+		font-size: 18px;
+		line-height: 21px;
+		align-self: flex-end;
+		background-color: #1B1E27;
+}
+
+.head-block-2 {
+		font-size: 26px;
+		line-height: 30px;
+		background-color: #1B1E27;
+}
+
+.element-1 {
+		width: 197.12px;
+		height: 4.1px;
+		background-color: #EB5757;
+}
+
+.element-2 {
+	width: 197.12px;
+	height: 10.1px;
+
+	background: #303549;
+}
+
+.body-element{
+		height: 123.91px;
+		width: 197.12px;
+
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+
+		background-color: #1B1E27;
+}
+
+.element-1-black {
+		width: 185.12px;
+		height: 123.91px;
+
+		position: relative;
+		display: flex;
+		align-items: flex-end;
+
+
+	background: #232532;
+}
+
+.element-1-blue-1 {
+		width: 185px;
+		height: 115px;
+
+		background: #0089FF;
+}
+
+.elment-1-level-1 {
+		width: 38px;
+
+		position: absolute;
+
+		top: 31px;
+		left: 17px;
+
+		border: 1px solid #F9F9F9;
+}
+.elment-1-level-2 {
+		width: 38px;
+		position: absolute;
+		top: 62px;
+		left: 17px;
+		border: 1px solid #F9F9F9;
+}
+.elment-1-level-3 {
+		width: 38px;
+		position: absolute;
+		top: 93px;
+		left: 17px;
+		border: 1px solid #F9F9F9;
+}
+
+.bottom-element {
+		width: 197px;
+		height: 10px;
+		background: #303549;
+}
+
+.name {
+		width: 197px;
+		height: auto;
+		margin-top: 29px;
+		display: flex;
+		font-size: 14px;
+		line-height: 16px;
+		background-color: #1B1E27;
+}
+
+.name-1 {
+		padding-top: 18px;
+		padding-bottom: 15px;
+		padding-left: 9px;
+		padding-right: 9px;
+		font-weight: bold;
+		font-size: 20px;
+		line-height: 23px;
+		border-radius: 6px;
+		background-color: #232532;
+}
+.name-2 {
+		margin-left: 9px;
+		background-color: #1B1E27;
+}
+
+/*------------РЕЗЕРВУАР№-2-------------------*/
+.head-element-2 .element-1 {
+		background-color: #00A99D;
+}
+
+.element-1-blue-2 {
+		width: 185px;
+		height: 79px;
+
+		background: #0089FF;
+}
+
+/*------------РЕЗЕРВУАР№-3-------------------*/
+.head-element-3 .element-1 {
+		background-color: #EB5757;
+}
+
+.element-1-blue-3 {
+		width: 185px;
+		height: 23px;
+
+		background-color: #0089FF;
+}
+
+/*------------РЕЗЕРВУАР№-4-------------------*/
+.head-element-4 .element-1 {
+		background-color: #00A99D;
+}
+
+.element-1-blue-4 {
+		width: 185px;
+		height: 92px;
+		background-color: #0089FF;
+}
+
+.legend {
+		width: 179px;
+		height: 52px;
+
+		margin-top: 39px;
+		margin-left: 110px;
+}
+
+.legend-1 {
+		width: 23px;
+		height: 23px;
+
+		background: #04978D;
+		border-radius: 3px;
+}
+
+.legend-2 {
+		margin-left: 25px;
+}
+
+.legend-3 {
+		width: 23px;
+		height: 23px;
+
+		background: #EB5757;
+		border-radius: 3px;
+}
+
+.legend-4 {
+		height: 32px;
+		width: 87px;
+		margin-top: -3px;
+		margin-left: 25px;
+}
+
+.legend-item-1 {
+		display: flex;
+		margin-bottom: 16px;
+}
+
+.legend-item-2 {
+		display: flex;
+}
